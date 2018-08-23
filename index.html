@@ -12,9 +12,13 @@
 	<header class="main-header">
 		
 			<div class="header-top">
-				<div class="container header-top-container">
-					<a class="main-header-logo" href="#">Техномарт</a>
-					<a class="main-header-search" href="#">Поиск</a>
+				<div class="header-top-nav container">
+					<a class="main-header-logo" href="#"><h1>Техномарт</h1></a>
+					<form class="header-search" action="https://echo.htmlacademy.ru" method="get">
+						<input id="seacrh" type="search" name="search" placeholder="Поиск">
+						<button class="visually-hidden" type="submit">Отправить</button>
+						<label class="visually-hidden" for="search">Поиск</label>
+					</form>
 					<a class="bookmarks" href="#">Закладки</a>
 					<a class="basket" href="#">Корзина</a>
 					<a class="order" href="#">Оформить заказ</a>
@@ -44,7 +48,6 @@
 	</header>
 		
 	<main>
-		<h1 class="visually-hidden">Техномарт</h1>
 		<section class="promo">
 			<h2 class="visually-hidden">Предложения</h2>
 			<ul>
