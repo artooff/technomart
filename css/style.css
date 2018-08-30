@@ -957,7 +957,145 @@ input[type="radio"].visually-hidden{
 }
 
 .services{
+	background-color: #F4F8F9;
+}
+
+.services-wrapper{
+	padding-top: 35px;
+}
+
+.services-block{
+	display: flex;
+	
+	position: relative;
+	
+	
+	
+}
+.services h2{
+	margin-bottom: 35px;
+	
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.services p{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.services-wrapper > p{
+	margin-bottom: 65px;
+}
+
+.services .services-items{
+	width: 240px;
+	margin: 0;
+	margin-right: 80px;
+	margin-bottom: 70px;
+	padding: 0;
+	
+	list-style: none;
+	
+
+	
+}
+
+.services .services-button{
+	display: block;
+	box-sizing: border-box;
+	
+	padding: 16px 140px 16px 22px;
+	
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: 700px;
+	color: #ffffff;
+	
+	background-color: #32425c;
+	border-bottom: 1px solid #4e637c;
+	
+	cursor: pointer;
+
+	 box-shadow: inset -7px 0 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+.services-items li:last-child{
+	border-bottom: none;
+}
+.services .services-button-current{
+	color: #32425c;
+	font-weight: 700px;
+	
+	background-color: #FFF;
+	border-bottom: none;
+	
+}
 
 
-	background-color: #f4f7f9;
+
+.service-info{
+	flex-grow:1;
+	
+	position: absolute;
+	right: 0;
+	width: 620px;
+	display: none;
+
+	
+}
+
+.service-info h3{
+	margin: 0;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.services .service-info-delivery{
+	position: absolute;
+	
+	padding-bottom: 97px;
+	
+	
+	background-image: url("../img/delivery-bg.png");
+	background-repeat: no-repeat;
+	background-position: 150px 30px;
+}
+
+.services .service-info-warranty{
+	position: absolute;
+	
+	
+	padding-bottom: 75px;
+	
+	background-image: url("../img/warranty-bg.png");
+	background-repeat: no-repeat;
+	background-position: 230px 0px;
+}
+
+.services .service-info-credit{
+	position: absolute;
+	
+	padding-bottom: 112px;
+	background-image: url("../img/credit-bg.png");
+	background-repeat: no-repeat;
+	background-position: 150px 20px;
+}
+
+.services .service-info-credit p{
+	margin-bottom: 30px;
+}
+
+.services .service-info-credit a{
+	padding-right: 45px;
+	padding-left: 45px;
+}
+
+.service-info-current{
+	display: block;
 }

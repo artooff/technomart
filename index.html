@@ -58,8 +58,8 @@
 		
 	</header>
 		
-	<main class="container">
-		<section class="promo">
+	<main class="">
+		<section class="promo container">
 			<h2 class="visually-hidden">Предложения</h2>
 			<div class="promo-block">
 
@@ -121,7 +121,7 @@
 			</div>
 		</section>
 
-		<section class="popular-products">
+		<section class="popular-products container">
 
 			<h2>Популярные товары:</h2>
 			<a href="#" class="button">Все популярные товары</a>
@@ -149,7 +149,7 @@
 
 				</li>
 
-				<li class="popular-products-item">
+				<li class="popular-products-item container">
 					<h3>
 						<a href="#">
 							<span class="catalog-item-title">Перфоратор <b class="uppercase">Bosh</b><br>Bfg-3000</span>
@@ -220,7 +220,7 @@
 			</ul>
 		</section>
 
-		<section class="popular-brands">
+		<section class="popular-brands container">
 			<h2>Популярные производители:</h2>
 			<a href="" class="button">Все производители</a>
 			<ul>
@@ -280,41 +280,48 @@
 				
 			</ul>
 		</section>
+
 		<section class="services">
-			<h2>Сервисы</h2>
-			<p>Хороший интернет-магазин отличается от плохого не только ценами!Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+			<div class="services-wrapper container">
+				<h2>Сервисы</h2>
+				<p>Хороший интернет-магазин отличается от плохого не только ценами!<br>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+				
+				<div class="services-block">
+					<ul class="services-items">
+						<li>
+							<a class="services-button services-button-delivery services-button-current ">Доставка</a>
+						</li>
 
-			<ul class="services-items">
-				<li>
-					<a class="services-button services-button-delivery">Доставка</a>
-				</li>
+						<li>
+							<a class="services-button services-button-warranty">Гарантия</a>
+						</li>
 
-				<li>
-					<a class="services-button services-button-warranty">Гарантия</a>
-				</li>
-
-				<li>
-					<a class="services-button services-button-credit">Кредит</a>
-				</li>
-			<ul>
+						<li>
+							<a class="services-button services-button-credit ">Кредит</a>
+						</li>
+					</ul>
+					
 			
-			<ul class="services-item-info">
-				<p class="service-info service-info-delivery">
-					<h3>Доставка</h3>
-					<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
-				</p>
+					<div class="service-info service-info-delivery service-info-current">
+						<h3>Доставка</h3>
+						<p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!<br>
+						Ведь мы неплохо заработаем, <br>поднимая его на ваш этаж!</p>
+					</div>
 
-				<p class="service-info service-info-warranty">
-					<h3>Гарантия</h3>
-					<p>ГарантияЕсли купленный у нас товар поломается или заискрит,а также в случае пожара, спровоцированного его вогаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как нибудь сами. </p>
-				</p>
+					
 
-				<p class="service-info service-info-credit">
-					<h3>Кредит</h3>
-					<p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-					<a href="">Отправить заявку</a>
-				</p>
-			</ul>
+					<div class="service-info service-info-warranty">
+						<h3>Гарантия</h3>
+						<p>Если купленный у нас товар поломается или заискрит,<br>а также в случае пожара, спровоцированного его вогаранием,<br> вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br> сгоревший товар на новый.<br> Дом уж восстановите как нибудь сами. </p>
+					</div>
+
+					<div class="service-info service-info-credit">
+						<h3>Кредит</h3>
+						<p>Залезть в долговую яму стало проще!<br> Кредитные консультанты придут вам на помощь.</p>
+						<a class="button" href="#">Отправить заявку</a>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section class="company-info">
@@ -357,6 +364,8 @@
 	</footer>
 
 	<script src="js/promo-slider.js"></script>
+	<script src="js/services.js"></script>
+
 
 </body>
 </html>
