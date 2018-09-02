@@ -1,6 +1,6 @@
 var slides = document.querySelectorAll(".slide");
 var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,5000);
+var slideInterval = setInterval(nextSlide,2000);
 var previous =  document.querySelector(".slide-button-back");
 var next =  document.querySelector(".slide-button-next");
 

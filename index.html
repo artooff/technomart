@@ -58,12 +58,12 @@
 		
 	</header>
 		
-	<main class="">
+	<main>
 		<section class="promo container">
 			<h2 class="visually-hidden">Предложения</h2>
 			<div class="promo-block">
 
-				<div class="promo-item promo-item-materials">
+				<div class="promo-item promo-item-materials new-label">
 					<h3>Материалы</h3>
 					<a href="#">На любой вкус</a>
 				</div>
@@ -80,7 +80,7 @@
 				
 				<div class="promo-cluster">
 
-					<div class="promo-item promo-item-sales">
+					<div class="promo-item promo-item-sales  new-label">
 						<h3>Скидки 50%</h3>
 						<a href="#">На 350 товаров</a>
 					</div>
@@ -93,8 +93,8 @@
 					
 					<ul class="promo-slider">
 						<li class="slide slide-1 showing">
-							<button class="slide-button slide-button-back" type="button"></button>
-							<button class="slide-button slide-button-next" type="button"></button>
+							<!-- <button class="slide-button slide-button-back" type="button"></button>
+							<button class="slide-button slide-button-next" type="button"></button> -->
 							<div class="dark-block">
 								<h3>Дрели</h3>
 								<p>Соседям на радость</p>
@@ -104,8 +104,8 @@
 						</li>
 
 						<li class="slide slide-2">
-							<button class="slide-button slide-button-back" type="button"></button>
-							<button class="slide-button slide-button-next" type="button"></button>
+							<!--<button class="slide-button slide-button-back" type="button"></button>
+							<button class="slide-button slide-button-next" type="button"></button>-->
 							<div class="dark-block">
 								<h3>Перфораторы</h3>
 								<p>Настоящие мужские игрушки</p>
@@ -126,7 +126,7 @@
 			<h2>Популярные товары:</h2>
 			<a href="#" class="button">Все популярные товары</a>
 			<ul>
-				<li class="popular-products-item">
+				<li class="popular-products-item new-label">
 					<h3>
 						<a href="#">
 							<span class="catalog-item-title">Перфоратор <b class="uppercase">Bosh</b><br> Bfg-9000</span>
@@ -149,10 +149,10 @@
 
 				</li>
 
-				<li class="popular-products-item container">
+				<li class="popular-products-item">
 					<h3>
 						<a href="#">
-							<span class="catalog-item-title">Перфоратор <b class="uppercase">Bosh</b><br>Bfg-3000</span>
+							<span class="catalog-item-title">Перaоратор <b class="uppercase">Bosh</b><br>Bfg-3000</span>
 						</a>
 					</h3>
 					
@@ -171,7 +171,7 @@
 
 				</li>
 
-				<li class="popular-products-item">
+				<li class="popular-products-item new-label">
 					<h3>
 						<a href="#">
 							<span class="catalog-item-title">Перфоратор <b class="uppercase">Bosh</b><br> Bfg-6000</span>
@@ -230,7 +230,7 @@
 					</a>
 				</li>
 
-				<li class="popular-brands-item">
+				<li class="popular-brands-item ">
 					<a href="#">
 						<img src="img/Makita.png" alt="Makita" width="123" height="40">
 					</a>
@@ -323,48 +323,90 @@
 				</div>
 			</div>
 		</section>
+		
+		<div class="contacts-columns container">
+			<section class="company-info">
+				<h2>Компания "Техномарт"</h2>
+				<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
 
-		<section class="company-info">
-			<h2>Компания "Техномарт"</h2>
-			<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
+				<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
 
-			<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
+				<ul class="transport">
+					<li>Деловые линии</li>
+					<li>Автотрейдинг</li>
+					<li>ЖелДорЭкспедиция</li>
+				</ul>
+				<a href="" class="button">Подробнее о компании</a>
+			</section>
 
-			<ul class="transport">
-				<li>Деловые линии</li>
-				<li>Автотрейдинг</li>
-				<li>ЖелДорЭкспедиция</li>
-			</ul>
-			<a href="" class="button">Подробнее о компании</a>
-		</section>
-
-		<section class="contacts">
-			<h2>Контакты</h2>
-			<p>Вы можете забрать товар сами, заехав в наш офис. </p>
-			<a href="">
-				<img src="" alt="">
-			</a>
-			<a href="" class="button">Заблудились? Напишите нам!</a>
-		</section>
+			<section class="contacts">
+				<h2>Контакты</h2>
+				<p>Вы можете забрать товар сами,<br> заехав в наш офис. </p>
+				<a class="contacts-map" href="#">
+					<img src="img/map-small.jpg" class="modal-map-open" alt="Как к нам добраться">
+				</a>
+				<a href="#" class="button modal-feedback-button">Заблудились? Напишите нам!</a>
+			</section>
+		</div>
 	</main>
 	<footer class="main-footer">
-		<a class="main-header-logo" href="">Техномарт</a>
-		<p class="footer-contact-info">
-			г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55 
-		</p>
-		<ul class="footer-nav">
-			<li><a href="">Главная</a></li>
-				<li><a href="">Компания</a></li>
-				<li><a href="">Каталог</a></li>
-				<li><a href="">Новости</a></li>
-				<li><a href="">Спецпредложения</a></li>
-				<li><a href="">Доставка</a></li>
-				<li><a href="">Контакты</a></li>
-		</ul>
-	</footer>
+		<div class="main-footer-container container">
+			<div class="main-footer-left">
+				<a class="main-footer-logo" href="">Техномарт</a>
+				<p>
+					г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br><a  href="tel:+78125550555" class="phone">+7 (812) 555-05-55</a>
+				</p>
+			</div>
+			<div class="footer-nav-block">
+				<ul class="footer-nav footer-nav-first">
+					<li><a href="#">Компания</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Каталог</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="##">Контакты</a></li>
+				</ul>
 
+				<ul class="footer-nav footer-nav-second">
+					<li><a href="#">Материалы</a></li>
+					<li><a href="#">Техника</a></li>
+					<li><a href="#">Инструмент</a></li>
+					<li><a href="#">Спецпредложения</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<section class="modal modal-feedback">
+		<form action="https://echo.htmlacademy.ru" method="post" class="modal-form">
+			<label>
+				<p>Ваше имя:</p>
+				<input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+			</label>
+
+			<label>
+				<p>Ваш e-mail:</p>
+				<input type="email" name="email" placeholder="Для отправки ответа">
+			</label>
+
+			<label>
+				<p>Текст письма:</p>
+				<textarea  name="message" placeholder="В свободной форме"></textarea>
+			</label>
+
+			<button class="button" type="submit">Отправить</button>
+			<button class="modal-close" type="button">Закрыть</button>
+		</form>
+	</section>
+	<section class="modal modal-map">
+		<iframe class="map-interactive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.599104370518!2d30.32088925132265!3d59.93879418178733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1534452517484" width="940" height="446" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<img class="map-image"src="img/map-big.jpg">
+		<button class="modal-close" type="button">Закрыть</button>
+	</section>
+	
+	<div class="modal-overlay"></div>
 	<script src="js/promo-slider.js"></script>
 	<script src="js/services.js"></script>
+	<script src="js/modal-map.js"></script>
+	<script src="js/modal-feedback.js"></script>
 
 
 </body>
